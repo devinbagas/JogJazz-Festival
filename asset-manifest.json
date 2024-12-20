@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/JogJazz-Festival/static/css/main.cf45f9a9.css",
-    "main.js": "/JogJazz-Festival/static/js/main.d837032c.js",
+    "main.js": "/JogJazz-Festival/static/js/main.890cd489.js",
     "index.html": "/JogJazz-Festival/index.html",
     "main.cf45f9a9.css.map": "/JogJazz-Festival/static/css/main.cf45f9a9.css.map",
-    "main.d837032c.js.map": "/JogJazz-Festival/static/js/main.d837032c.js.map"
+    "main.890cd489.js.map": "/JogJazz-Festival/static/js/main.890cd489.js.map"
   },
   "entrypoints": [
     "static/css/main.cf45f9a9.css",
-    "static/js/main.d837032c.js"
+    "static/js/main.890cd489.js"
   ]
 }
