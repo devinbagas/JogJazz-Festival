@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Jogjazz-Festival/static/css/main.cf45f9a9.css",
+    "main.js": "/Jogjazz-Festival/static/js/main.890cd489.js",
+    "index.html": "/Jogjazz-Festival/index.html",
+    "main.cf45f9a9.css.map": "/Jogjazz-Festival/static/css/main.cf45f9a9.css.map",
+    "main.890cd489.js.map": "/Jogjazz-Festival/static/js/main.890cd489.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf45f9a9.css",
+    "static/js/main.890cd489.js"
+  ]
+}
