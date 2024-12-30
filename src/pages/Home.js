@@ -1,12 +1,40 @@
 import React from 'react';
+import BackgroundPage from '../component/BackgroundPage';
+import SpotifyEmbed from '../component/SpotifyEmbed';
+import EventInfo from '../component/EventInfo';
+import LineUp from '../component/LineupSection';
+import Ticket from '../component/TicketSection'
+import Sponsor from '../component/Sponsor';
+import Hero from '../component/HeroSection';
 
 const Home = () => (
-  <div className="text-center p-10">
-    <h1 className="text-4xl font-bold mb-4">JogJazz 2024</h1>
-    <p className="text-lg mb-6">A Festival of Jazz in Jogja</p>
-    <button className="bg-blue-600 px-4 py-2 rounded text-white hover:bg-blue-700">
-      Learn More
-    </button>
+  <div className="relative min-h-screen flex flex-col items-center text-white">
+    {/* Background */}
+    <BackgroundPage />
+
+    {/* Hero Section */}
+    <Hero />
+
+    {/* Event Information Section */}
+    <EventInfo />
+
+    {/* LineUp Section */}
+    <LineUp />
+
+     {/* Ticket Section */}
+     <Ticket />
+
+    {/* Spotify Playlist */}
+    <SpotifyEmbed />
+
+    {/* Sponsor Section */}
+    <Sponsor />
+
+    <div className = 'w-full h-auto mt-3 mb-5 text-center items-center'>
+      <h1 className='text-sm text-white font-medium text-shadow-glow'>
+        - SOLIHIN GROUP 2024 -
+      </h1>
+    </div>
   </div>
 );
 

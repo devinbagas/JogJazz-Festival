@@ -1,27 +1,25 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Lineup from './pages/Lineup';
 import Tickets from './pages/Tickets';
 import FAQ from './pages/FAQ';
-
+import Main from './component/Main';
+import Navbar from './component/Navbar';
 
 function App() {
   return (
-    <div className="bg-black text-white font-sans">
-      <nav className="flex justify-between p-4 bg-gray-900">
-        <h1 className="text-xl font-bold"><Link to="/">JogJazz</Link></h1>
-        <ul className="flex space-x-4">
-          <li><Link to="/lineup" className="hover:underline">Lineup</Link></li>
-          <li><Link to="/tickets" className="hover:underline">Tickets</Link></li>
-          <li><Link to="/faq" className="hover:underline">FAQ</Link></li>
-        </ul>
-      </nav>
+    <div className="text-white font-poppins relative">
+      <Navbar /> {/* Gunakan Navbar */}
+      <Routes>
+        {/* Render Main hanya di rute "/" */}
+        <Route path="/JogJazz-Festival" element={<Main />} />
+      </Routes>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/lineup" element={<Lineup />} />
-        <Route path="/tickets" element={<Tickets />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/tickets" element={<Tickets />} />
       </Routes>
     </div>
   );

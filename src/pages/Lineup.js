@@ -1,9 +1,11 @@
 import React from 'react';
+import BackgroundPage from '../component/BackgroundPage';
 
 const Lineup = () => (
-  <div className="p-10">
-    <h2 className="text-2xl font-bold mb-4">Lineup</h2>
-    <p>Coming soon...</p>
+  <div className="relative min-h-screen flex flex-col items-center text-white">
+    {/* Background */}
+    <BackgroundPage />
+
   </div>
 );
 

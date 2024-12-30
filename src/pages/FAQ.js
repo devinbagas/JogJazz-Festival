@@ -1,9 +1,11 @@
 import React from 'react';
+import BackgroundPage from '../component/BackgroundPage';
 
 const FAQ = () => (
-  <div className="p-10">
-    <h2 className="text-2xl font-bold mb-4">FAQ</h2>
-    <p>Find answers to common questions here.</p>
+  <div className="relative min-h-screen flex flex-col items-center text-white">
+    {/* Background */}
+    <BackgroundPage />
+
   </div>
 );
 
