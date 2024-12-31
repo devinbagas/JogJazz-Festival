@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/JogJazz-Festival/static/css/main.cab2c5aa.css",
-    "main.js": "/JogJazz-Festival/static/js/main.72866867.js",
+    "main.css": "/JogJazz-Festival/static/css/main.a5f2ffe8.css",
+    "main.js": "/JogJazz-Festival/static/js/main.9d163504.js",
     "static/media/background.mp4": "/JogJazz-Festival/static/media/background.69ab565183dd5e0c7197.mp4",
-    "static/media/MacAyres.jpeg": "/JogJazz-Festival/static/media/MacAyres.1fbeb5e2ba19d9040bd0.jpeg",
     "static/media/backgroundpage.png": "/JogJazz-Festival/static/media/backgroundpage.a1b6c310896b07752b5b.png",
     "static/media/Honne.jpg": "/JogJazz-Festival/static/media/Honne.98934d3f7c6c239d6584.jpg",
     "static/media/Rubii.jpg": "/JogJazz-Festival/static/media/Rubii.c341c7456d2eb1509174.jpg",
     "static/media/VictorRay.jpg": "/JogJazz-Festival/static/media/VictorRay.3e58c55eb9c917965263.jpg",
+    "static/media/MacAyres.jpg": "/JogJazz-Festival/static/media/MacAyres.7f40c109f0c0291e03dd.jpg",
     "static/media/SnarkyPuppy.jpg": "/JogJazz-Festival/static/media/SnarkyPuppy.8043a80ad58b4885f3de.jpg",
     "static/media/SponsorList.png": "/JogJazz-Festival/static/media/SponsorList.dea7ca89d5aea578240d.png",
-    "static/media/ManuelGardnerFernandes.png": "/JogJazz-Festival/static/media/ManuelGardnerFernandes.ee5c6e5aa96c064f9ab4.png",
     "static/media/Keshi.jpeg": "/JogJazz-Festival/static/media/Keshi.d177fafb18636f6070a1.jpeg",
     "static/media/LogoWhite.png": "/JogJazz-Festival/static/media/LogoWhite.c031b27638ecb3937f33.png",
     "static/media/maps.png": "/JogJazz-Festival/static/media/maps.a4e1fd634b3d3c2a2edc.png",
@@ -18,6 +17,7 @@
     "static/media/Vintonic.jpg": "/JogJazz-Festival/static/media/Vintonic.27699000f92b1412aade.jpg",
     "static/media/FKJ.jpg": "/JogJazz-Festival/static/media/FKJ.cc043e2392c61f0b769a.jpg",
     "static/media/artist1.png": "/JogJazz-Festival/static/media/artist1.a84a985e27a4da583e05.png",
+    "static/media/ManuelGardnerFernandes.jpg": "/JogJazz-Festival/static/media/ManuelGardnerFernandes.7b70e3910d4d3956f48d.jpg",
     "static/media/MateusAsato.jpg": "/JogJazz-Festival/static/media/MateusAsato.ffac84358a433e9aee60.jpg",
     "static/media/JeffBernat.jpeg": "/JogJazz-Festival/static/media/JeffBernat.9e70220e1da2daff7ce1.jpeg",
     "static/media/Anomalie.jpg": "/JogJazz-Festival/static/media/Anomalie.0a758eaf4c903e771726.jpg",
@@ -29,11 +29,11 @@
     "static/media/DanielCaesar.jpg": "/JogJazz-Festival/static/media/DanielCaesar.e86925569ef6de4088e3.jpg",
     "static/media/MusiqSoulchild.jpg": "/JogJazz-Festival/static/media/MusiqSoulchild.0dd0c17b4b55bc0ba635.jpg",
     "index.html": "/JogJazz-Festival/index.html",
-    "main.cab2c5aa.css.map": "/JogJazz-Festival/static/css/main.cab2c5aa.css.map",
-    "main.72866867.js.map": "/JogJazz-Festival/static/js/main.72866867.js.map"
+    "main.a5f2ffe8.css.map": "/JogJazz-Festival/static/css/main.a5f2ffe8.css.map",
+    "main.9d163504.js.map": "/JogJazz-Festival/static/js/main.9d163504.js.map"
   },
   "entrypoints": [
-    "static/css/main.cab2c5aa.css",
-    "static/js/main.72866867.js"
+    "static/css/main.a5f2ffe8.css",
+    "static/js/main.9d163504.js"
   ]
 }
