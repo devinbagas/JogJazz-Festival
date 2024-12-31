@@ -19,7 +19,7 @@ const EventInfo = () => (
           WATCH THE OFFICIAL #JOGJAZZ '24 PHASE 1 TRAILER
         </p>
         <iframe
-          src="https://www.youtube.com/embed/bxMYXsEDb5k"
+          src="https://www.youtube.com/embed/NWApRjR6Iws"
           title="Official Teaser JogJazz 2024"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import background from '../assets/background.mp4';
 import logoWhite from '../assets/LogoWhite.png';
 
@@ -20,12 +21,12 @@ const Main = () => {
           alt="JogJazz Festival 2024"
           className="mb-8 w-1/2 sm:w-1/3 md:w-1/4 h-auto sm:translate-y-[-50px] md:translate-y-[-110px]"
         />
-        <a
-          href="/"
+        <Link
+          to="/"
           className="font-Poppins px-10 sm:px-12 md:px-14 py-2 sm:py-3 bg-transparent border border-white text-white font-poppins font-medium text-sm sm:text-base md:text-lg rounded-full hover:bg-gray-200 hover:text-black transition translate-y-0 sm:translate-y-[-10px] md:translate-y-[10px] tracking-wider"
         >
           Explore
-        </a>
+        </Link>
       </div>
     </div>
   );
