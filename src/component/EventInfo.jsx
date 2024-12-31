@@ -25,7 +25,7 @@ const EventInfo = () => (
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
-          className="w-full h-auto md:w-[580px] md:h-[315px] rounded-lg shadow-[0_10px_21px_rgba(255,255,255,0.7)]"
+          className="h-full w-auto md:w-[580px] md:h-[315px] rounded-lg shadow-[0_10px_21px_rgba(255,255,255,0.7)]"
         ></iframe>
       </div>
       {/* Location Section */}

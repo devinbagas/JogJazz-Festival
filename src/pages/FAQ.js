@@ -42,6 +42,15 @@ const FAQ = () => {
       answer:
         "You can reach customer support via email at support@jogjazzfestival.com or call us at +123-456-7890.",
     },
+    {
+      question: "My Socials?",
+      answer:(
+      <>
+        You can check our social media at @devinbagas_ or click this{" "}
+        <a href="https://www.instagram.com/devinbagas_" className="text-gray-800 font-semibold underline">link</a>.
+      </>
+      ),
+    },
   ];
 
   const toggleFAQ = (index) => {

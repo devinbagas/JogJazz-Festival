@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -13,9 +14,9 @@ import MateusAsato from "../assets/LineUp/MateusAsato.jpg";
 import DanielCaesar from "../assets/LineUp/DanielCaesar.jpg";
 import Honne from "../assets/LineUp/Honne.jpg";
 import Polyphia from "../assets/LineUp/Polyphia.jpg";
-import MacAyres from "../assets/LineUp/MacAyres.jpeg";
+import MacAyres from "../assets/LineUp/MacAyres.jpg";
 import PaulPartohap from "../assets/LineUp/PaulPartohap.jpg";
-import ManuelGardnerFernandes from "../assets/LineUp/ManuelGardnerFernandes.png";
+import ManuelGardnerFernandes from "../assets/LineUp/ManuelGardnerFernandes.jpg";
 
 const LineUp = () => {
   const [selectedArtist, setSelectedArtist] = useState(null);
@@ -62,7 +63,7 @@ const LineUp = () => {
       bio: 'Manuel Gardner Fernandes is a gifted guitarist known for his innovative and expressive playing style. His music combines elements of progressive metal with captivating melodies.',
     },
   ];
-  
+
   return (
     <div className="mt-7 w-full py-16 px-6">
       {/* Header */}
@@ -71,11 +72,11 @@ const LineUp = () => {
         <p className="text-sm font-bold text-gray-300 mt-6 mb-4">
           THE ARTISTS THAT WILL BE PERFORMING ON JOGJAZZ '24
         </p>
-        <button
-          onClick={() => window.location.href = "/lineup"}
-          className="mt-3 mb-10 px-10 sm:px-12 md:px-14 py-2 sm:py-3 bg-transparent border border-white text-white font-poppins font-medium text-sm sm:text-base md:text-lg rounded-full hover:bg-gray-200 hover:text-black transition translate-y-0 sm:translate-y-[-10px] md:translate-y-[10px] tracking-wider"
-        >
-          VIEW ALL
+        <button className="mt-3 mb-10 px-10 sm:px-12 md:px-14 py-2 sm:py-3 bg-transparent border border-white text-white font-poppins font-medium text-sm sm:text-base md:text-lg rounded-full hover:bg-gray-200 hover:text-black transition translate-y-0 sm:translate-y-[-10px] md:translate-y-[10px] tracking-wider">
+          <Link
+            to="/lineup">
+            VIEW ALL
+          </Link>
         </button>
       </div>
 
