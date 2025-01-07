@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import ArtistCard from "./ArtistCard";
-import Modal from "./Modal";
+import Modal from "./ModalArtist";
 
 // Import gambar
 import VictorRay from "../assets/LineUp/VictorRay.jpg";

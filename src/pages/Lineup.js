@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Modal from "../component/Modal";
+import Modal from "../component/ModalArtist";
 import ArtistCard from "../component/ArtistCard";
 import Background from "../component/BackgroundPage";
 

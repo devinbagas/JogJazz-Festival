@@ -24,8 +24,8 @@ const TicketSection = () => {
     <section className="ticket-section py-12">
       <div className="container mx-auto text-center">
         <h2 className="text-5xl font-bold text-white text-shadow-glow mb-5">TICKETS</h2>
-        <p className="text-lg font-semibold text-white mb-10 px-5">
-          Get your ticket here! We have Early-Bird, General Admission, and VVIP tickets available!
+        <p className="text-sm font-bold text-gray-300 mt-6 mb-12">
+          GET YOUR TICKET HERE! WE HAVE EARLY-BIRD, GENERAL ADMISSION, AND VVIP TICKETS AVAILABLE!
         </p>
         {/* Tickets List */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 px-6">
@@ -45,7 +45,7 @@ const TicketSection = () => {
                   IDR {ticket.price}
                 </span>
               </p>
-              <Link to="/tickets">
+              <Link to="/ticket ">
                 <button className="mt-6 w-full py-2 text-xl font-semibold bg-transparent border-2 text-shadow-glow border-white rounded-lg text-white hover:border-orange-500 hover:bg-orange-500 hover:text-white transition">
                   Buy Tickets
                 </button>
