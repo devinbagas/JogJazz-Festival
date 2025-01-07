@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JogJazz-Festival/static/css/main.a5f2ffe8.css",
-    "main.js": "/JogJazz-Festival/static/js/main.9d163504.js",
+    "main.css": "/JogJazz-Festival/static/css/main.0b8966dc.css",
+    "main.js": "/JogJazz-Festival/static/js/main.5a74557d.js",
     "static/media/background.mp4": "/JogJazz-Festival/static/media/background.69ab565183dd5e0c7197.mp4",
     "static/media/backgroundpage.png": "/JogJazz-Festival/static/media/backgroundpage.a1b6c310896b07752b5b.png",
     "static/media/Honne.jpg": "/JogJazz-Festival/static/media/Honne.98934d3f7c6c239d6584.jpg",
@@ -29,11 +29,11 @@
     "static/media/DanielCaesar.jpg": "/JogJazz-Festival/static/media/DanielCaesar.e86925569ef6de4088e3.jpg",
     "static/media/MusiqSoulchild.jpg": "/JogJazz-Festival/static/media/MusiqSoulchild.0dd0c17b4b55bc0ba635.jpg",
     "index.html": "/JogJazz-Festival/index.html",
-    "main.a5f2ffe8.css.map": "/JogJazz-Festival/static/css/main.a5f2ffe8.css.map",
-    "main.9d163504.js.map": "/JogJazz-Festival/static/js/main.9d163504.js.map"
+    "main.0b8966dc.css.map": "/JogJazz-Festival/static/css/main.0b8966dc.css.map",
+    "main.5a74557d.js.map": "/JogJazz-Festival/static/js/main.5a74557d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5f2ffe8.css",
-    "static/js/main.9d163504.js"
+    "static/css/main.0b8966dc.css",
+    "static/js/main.5a74557d.js"
   ]
 }
